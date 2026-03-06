@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pudim 2.0 - Tech Edition</title>
+    <title>O Novo Pudim</title>
+    <link rel="icon" type="image/png" href="pudim.png">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <header>
         <nav>
-            <span class="logo">Pudim<span>.js</span></span>
+            <span class="logo">Novo<span>Pudim</span></span>
             <div class="social-share">
-                <button onclick="window.open('https://twitter.com/share?url=https://seusite.netlify.app')" class="btn-share">Twitter</button>
-                <button onclick="window.open('https://www.linkedin.com/shareArticle?url=https://seusite.netlify.app')" class="btn-share">LinkedIn</button>
+                <button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://seusite.netlify.app')" class="btn-share facebook"><i class="fab fa-facebook"></i> Compartilhar</button>
+                <button onclick="window.open('https://www.instagram.com/')" class="btn-share instagram"><i class="fab fa-instagram"></i> Instagram</button>
             </div>
         </nav>
     </header>
@@ -22,32 +23,36 @@
     <main>
         <section class="hero">
             <div class="image-container">
-                <img src="https://pudim.com.br/pudim.jpg" alt="Um pudim de leite condensado com calda de caramelo em um prato branco">
+                <img src="pudim.png" alt="Desenho de um pudim amarelo e fofo">
             </div>
-            <h1>pudim.com.br</h1>
-            <p class="tagline">Onde a tradição da web encontra a Engenharia de Software.</p>
+            <h1>O Novo Pudim</h1>
+            <p class="tagline">A tradição e a cremosidade, agora com um visual moderno.</p>
+            
+            <a href="http://pudim.com.br/" target="_blank" rel="noopener noreferrer" class="btn-legacy">
+                <i class="fas fa-history"></i> Clique aqui para ver a versão clássica (Anos 2000)
+            </a>
         </section>
 
         <section class="content">
             <div class="card">
-                <h2><i class="fas fa-history"></i> A História</h2>
-                <p>O site original é um marco da internet brasileira desde os anos 2000. Assim como um bom sistema legado, ele sobrevive ao tempo pela sua simplicidade e propósito único.</p>
+                <h2><i class="fas fa-utensils"></i> A Origem do Doce</h2>
+                <p>A versão que amamos nasceu da adaptação de doces conventuais portugueses. A receita clássica brasileira ganhou força no século XX com a popularização do leite condensado, substituindo os ingredientes mais caros da época.</p>
             </div>
 
             <div class="card">
-                <h2><i class="fas fa-chart-bar"></i> Curiosidades & Dados</h2>
-                <ul>
-                    <li><strong>Origem:</strong> Evoluiu do "Tyropatinam" romano para o clássico de leite condensado.</li>
-                    <li><strong>Engenharia:</strong> O segredo da estrutura (o "build") está na proporção exata de ovos e tempo de forno.</li>
-                    <li><strong>Acessibilidade:</strong> Um pudim perfeito deve ter a textura ideal para todos os paladares.</li>
-                </ul>
+                <h2><i class="fas fa-crown"></i> O Famoso Pudim JK</h2>
+                <p>O pudim da receita da avó de Juscelino Kubitschek, conhecido como "Pudim JK", é uma das sobremesas mais desejadas e lembradas da família Kubitschek. A receita, que é guardada a sete chaves, encanta em cremosidade e sabor, e é servida no lendário Restaurante Diamantina.</p>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-fire"></i> Com ou Sem Furinhos?</h2>
+                <p>O grande debate nacional tem uma explicação científica simples: se a água do banho-maria ferver, o pudim terá furinhos. Para um doce liso e cremoso, a temperatura do forno deve ser mantida baixa e constante.</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Desenvolvido por <strong>Ketlen</strong> | Futura Especialista em Cybersecurity</p>
-        <p>Projeto acadêmico - Engenharia de Software 2026</p>
+        <p>Recriado com <i class="fas fa-heart" style="color: var(--primary);"></i> por <strong>Ketlen Santos - Engenharia de Software</strong></p>
     </footer>
 
 </body>
